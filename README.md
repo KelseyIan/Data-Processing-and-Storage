@@ -4,6 +4,7 @@ Overview of Code:
 This details data-processing storage code to effectively store transactions. Uses two Maps, one for finalized transactions and one for active transactions. This is a great way to match key value pairs, as well as key value pairs for non-committed transactions. When a transaction is finalized, the items in the temp_map are added to the finalized transaction map, and appropriate booleans are reset.
 
 Function Overview:
+
   begin_transaction() -> Creates a new transaction
   put(key, value) -> Puts a key, value in the temporary transaction map (Handles overrides)
   get(key) -> Retrieves the value associated with the given key. Handles a null exception if the key is not present
