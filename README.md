@@ -23,14 +23,22 @@ Function Overview:
   3. Ensure compatibility with your current phyton version (Update locally if needed)
   4. To test the code, create an instance of the class object then begin a transaction by calling "begin_transaction()".
   5. An example test to test the functionality is below:
-     database= InMemoryDB()  
+     
+     database= InMemoryDB()
+     
      database.begin_transaction
+     
      database.put("A",1)
+     
      database.commit()
+     
      #ensure to print if the function returns a value to check output
+     
      print(database.get("B"))  #will return error message
+     
      print(database.get("A"))  #will return the appropriate value
-6. Ensure a variety of test cases to check the robustness of the code
+     
+7. Ensure a variety of test cases to check the robustness of the code
 
 Future Assignment Considerations:
 
