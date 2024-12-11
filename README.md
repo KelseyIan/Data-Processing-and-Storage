@@ -7,9 +7,13 @@ This details data-processing storage code to effectively store transactions. Use
 Function Overview:
 
   begin_transaction() -> Creates a new transaction
+  
   put(key, value) -> Puts a key, value in the temporary transaction map (Handles overrides)
+  
   get(key) -> Retrieves the value associated with the given key. Handles a null exception if the key is not present
+  
   commit() -> Commits the changes from the transaction to the finalized transaction, handles key,value overrides if key is present or not present.
+  
   Rollback () -> Reverts all the changes that were present in this current transaction.
 
   How to Run Code:
