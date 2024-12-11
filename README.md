@@ -43,5 +43,6 @@ Function Overview:
 Future Assignment Considerations:
 
   I enjoyed learning and working on databases in this class and wish we worked on it more. This assignment was a great first step in seeing how to code a database in the language of your choice. I would keep the ability to choose what language to use to complete this assignment. I would modify this assessment and allow specific users to have a list of their transactions. This could be seen as a Map of Maps, with the Key being the transaction user name and value being a map of their specific transactions. Inside of this assignment, one modification to the instructions could be specific error messages that you would expect. This would keep the code more uniform between different student submissions.
+  
   The last improvement that could help both teachers, TAs, and students is a test file or having the students create a file with unit tests. This would help the students test their code, judge their ability to create comprehensive unit tests, and help ease grading from the professor's point of view.
 
