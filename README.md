@@ -20,13 +20,13 @@ Function Overview:
 
   1. Clone this code to your IDE or local device
   2. Ensure you have Python on your device.
-  3. Ensure compatibility with your current phyton version (Update locally if needed)
-  4. To test the code, create an instance of the class object then begin a transaction by calling "begin_transaction()".
+  3. Ensure compatibility with your current phyton version (Update Python if needed)
+  4. To test the code, create an instance of InMemoryDB class and then begin a transaction by calling "begin_transaction()".
   5. An example test to test the functionality is below:
      
      database= InMemoryDB()
      
-     database.begin_transaction
+     database.begin_transaction()
      
      database.put("A",1)
      
